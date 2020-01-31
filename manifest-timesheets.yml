@@ -4,7 +4,7 @@ applications:
   routes:
   - route: timesheets-pal-sp20126552.apps.dev.pcf-aws.com
   memory: 500M
-  disk_quota:500M
+  disk_quota: 500M
   instances: 1
   env:
     JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
